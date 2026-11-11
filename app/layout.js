@@ -1,12 +1,12 @@
 export const metadata = {
-  other: {
-    monetag: "843b0926bb1e138278af968e479779d4"
-  }
-};
 import "./globals.css";
 import { SessionProvider } from "@/components/SessionProvider";
 
 export const metadata = {
+    other: {
+    monetag: "843b0926bb1e138278af968e479779d4"
+  }
+};
   title: "ZNK Ads — Regarde. Valide. Encaisse.",
   description:
     "ZNK Ads rémunère le visionnage de publicités partenaires. Les gains sont crédités uniquement après validation réelle de la régie publicitaire.",
