@@ -1,0 +1,13 @@
+# Configuration Netlify pour ZNK ADS (Next.js 15 App Router)
+# Le plugin officiel transforme les routes App Router et les API en fonctions.
+# Sans ce plugin, Netlify publie un dossier statique vide -> 404 sur toutes les pages.
+
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

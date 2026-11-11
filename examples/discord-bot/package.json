@@ -1,0 +1,17 @@
+{
+  "name": "znk-ads-discord-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Exemple de bot Discord.js connecté à l'API ZNK ADS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.28.1",
+    "dotenv": "^16.6.1"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}
