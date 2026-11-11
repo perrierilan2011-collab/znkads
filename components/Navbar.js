@@ -6,9 +6,6 @@ export default function Navbar({ user }) {
     <header className="nav">
       <div className="container nav-inner">
         <Link href={user ? '/dashboard' : '/'} className="brand" aria-label="ZNK ADS">
-          <span className="brand-mark" aria-hidden="true">
-            Z
-          </span>
           <span>ZNK ADS</span>
         </Link>
 
@@ -20,6 +17,9 @@ export default function Navbar({ user }) {
               </Link>
               <Link className="nav-link" href="/ads">
                 Publicités
+              </Link>
+              <Link className="nav-link nav-link-casino" href="/casino">
+                Casino
               </Link>
               <Link className="nav-link" href="/withdraw">
                 Retirer
