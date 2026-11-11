@@ -1,3 +1,8 @@
+export const metadata = {
+  other: {
+    monetag: "843b0926bb1e138278af968e479779d4"
+  }
+};
 import "./globals.css";
 import { SessionProvider } from "@/components/SessionProvider";
 
